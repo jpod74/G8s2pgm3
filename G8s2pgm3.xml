@@ -19,7 +19,7 @@
               <block type="controls_repeat" id="73" inline="true">
                 <value name="TIMES">
                   <block type="math_number" id="153">
-                    <field name="NUM">1000</field>
+                    <field name="NUM">100</field>
                   </block>
                 </value>
                 <statement name="DO">
@@ -70,6 +70,15 @@
                                             <field name="NUM">5</field>
                                           </block>
                                         </value>
+                                        <next>
+                                          <block type="robot_delay" id="164" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="165">
+                                                <field name="NUM">100</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
