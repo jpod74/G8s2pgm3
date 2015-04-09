@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="5">
-            <field name="TEXT">LOOPING</field>
+            <field name="TEXT">hi Lauren</field>
             <next>
               <block type="controls_repeat" id="6" inline="true">
                 <value name="TIMES">
